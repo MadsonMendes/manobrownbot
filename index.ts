@@ -1,0 +1,14 @@
+import express from 'express';
+import tweet from './tweet';
+const app = express();
+
+app.get('/', async (req,res) =>{
+    tweet()
+    return res.send('Tudo bem :)')
+  })
+  
+  
+  app.listen(8999, () => {
+  
+  })
+

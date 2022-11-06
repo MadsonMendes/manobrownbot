@@ -6,4 +6,4 @@ async function tweet(){
   console.log(`${result}`)
 }
 
-tweet()
+export default tweet
