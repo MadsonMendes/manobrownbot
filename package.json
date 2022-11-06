@@ -2,10 +2,10 @@
   "name": "ManoBrownBot",
   "version": "1.0.0",
   "description": "Bot do Mano Brown",
-  "main": "tweet.ts",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node --esm tweet.ts"
+    "start": "ts-node --esm index.ts"
   },
   "keywords": [],
   "author": "",
