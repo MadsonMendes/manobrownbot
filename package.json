@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "Bot do Mano Brown",
   "main": "tweet.ts",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node tweet.ts"
+    "start": "ts-node --esm tweet.ts"
   },
   "keywords": [],
   "author": "",
