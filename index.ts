@@ -8,7 +8,7 @@ app.get('/', async (req,res) =>{
   })
   
   
-  app.listen(8999, () => {
-  
+  app.listen(process.env.PORT||9999, () => {
+  console.log('App running')
   })
 
